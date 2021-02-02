@@ -16,6 +16,9 @@ npm run build
 # lint all JS/Vue component files in `src/`
 npm run lint
 
+#if node-pty error, try
+./node_modules/.bin/electron-rebuild 
+
 ```
 ![image](https://github.com/gaograce/resizeTerminal/raw/master/images/screen.png)
 ---
